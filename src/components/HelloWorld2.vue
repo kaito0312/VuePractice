@@ -62,10 +62,10 @@ export default {
     submitMessage() {
       let self = this;
       self.messages.unshift({
-        user:self.user,
-        message:self.message
+        user: self.user,
+        message: self.message
       });
-      self.message=''
+      self.message = "";
     }
   }
 };
